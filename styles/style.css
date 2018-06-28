@@ -1,23 +1,28 @@
 
-body {
-  margin: 0;
-  padding: 0;
+/*-----------------------------------------------------------------------------------------------------*/
+p {
+  margin:0;
+  padding:0;
 }
-div {
-  margin: 5px;
-  padding: 0;
+.logohead{
   text-align: center;
   background-color: beige;
   border: 1px solid black;
   border-radius: 3px;
 }
 
-.gallery img{
-  width: 200;
-  height: 200;
-}
+.instagram {
+    display: inline-block;
+    text-align: center;
+    background: red;
 
+  }
 .contact-us {
   text-align: center;
 }
 
+.flex {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
