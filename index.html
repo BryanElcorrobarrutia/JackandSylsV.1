@@ -24,7 +24,7 @@
 
         <div class="flex">
           <p>
-          <a href="https:/www.instagram.com/jack.and.syl"><img src="images/instagram-logo.png" width = "50" height="50"></a>
+          <a href="https://www.instagram.com/jack.and.syl"><img src="images/instagram-logo.png" width = "50" height="50"></a>
           </p>
           <p>
           <a href="https://www.facebook.com/Jackandsy/"><img src="images/facebook-logo.png" width = "50" height="50"></a>
@@ -33,17 +33,40 @@
         <hr>
       </section>
 
-      <div class ="gallery">
-        <img src="images/image1.JPG" width = "300" height="300">
-        <img src="images/image2.JPG" width = "300" height = "300">
-        <img src="images/image3.JPG" width="300  " height="300">
-        <img src="images/image4.JPG" width="300" height="300">
+      <!--<div class ="gallery">
+        <img src="images/image1.JPG" class="images">
+        <img src="images/image2.JPG" class="images">
+        <img src="images/image4.JPG" class="images">
+      </div> -->
+      <div class="slideshow">
+        <img class="mySlides" src="images/image1.JPG">
+        <img class="mySlides" src="images/image2.JPG">
+        <img class="mySlides" src="images/image4.JPG">
+        <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
       </div>
-
-      <footer style="text-align: center;">
-        <h1>UNDER CONSTRUCTION</h1>
+      <footer>
+        <img src="images/logo.png" alt="Jack and Syl's Gourmet Sweets" title= "Jack and Syl's Gourmet Sweets" class="logofoot">
       </footer>
 
     </body>
+  <script type="text/javascript">
+    var slideIndex = 1;
+    showDivs(slideIndex);
 
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length} ;
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex-1].style.display = "block";
+    }
+  </script>
   </html>
