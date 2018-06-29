@@ -1,54 +1,61 @@
 
-/*-----------------------------------------------------------------------------------------------------*/
-p {
-  margin:0;
-  padding:0;
-}
-
 html {
   background-color: beige;
 }
-.logohead{
-  text-align: center;
-  background-color: beige;
-  border: 1px solid black;
-  border-radius: 3px;
+header, p, div, body, img {
+  margin: 0;
+  padding: 0;
 }
-
-.logofoot {
-  margin-left: 20px;
-}
-
-.instagram {
-    display: inline-block;
+.button {
+    background-color: #c19b4f;
+    border: none;
+    color: black;
+    padding: 15px 25px;
     text-align: center;
-    background: red;
-
-  }
-.contact-us {
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.button:hover {
+    background-color: brown;
+}
+header {
+  background-color: beige;
+  background-image: url("../images/headerpicture.JPG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1920px 720px;
   text-align: center;
 }
 
-.flex {
-  display: flex;
-  flex-direction: column;
-  margin-top: 10px;
-}
-.gallery{
-  display: flex;
+.logobox {
+  display: inline-block;
+  background-color: beige;
+  height: 240px;
+  width: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px black solid;
+  border-radius: 5px;
+
 }
 
-.slideshow {
+.flexing {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.dimages {
+  display: inline-block;
+  width: 250px; 
+}
+.figure {
   text-align: center;
 }
 
-.mySlides{
-  display: block;
-  width: 100%;
-  max-width: 500px;
-  margin: auto;
-}
-
-footer{
-  background-color: beige
+.AboutUs  {
+  background-color: brown;
 }

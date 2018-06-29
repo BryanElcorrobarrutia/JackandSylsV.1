@@ -8,65 +8,40 @@
     </head>
 
     <body>
-
-      <header class="logohead">
-        <img src="images/logo.png" alt="Jack and Syl's Gourmet Sweets" title= "Jack and Syl's Gourmet Sweets" class="logo">
+      <header> 
+        <div class="logobox">
+          <img src="images/logo.png" style="display: inline-block;">
+        </div>
+        <nav>
+          <button class="button">Our Menu</button>
+          <button class="button">Free Quote</button>
+        </nav>
       </header>
+      
+      <section>
+        <h2 style="text-align: center; font-family: Helvetica">WE SPECIALIZE IN...</h2>
+        <div class="flexing">
+          <div class="figure"><img src="images/churros.png" class="dimages"><p>Delicious Churros</p> </div>
+          <div class="figure"><img src="images/alfajores.png" class="dimages"><p>Authentic Peruvian Alfajores</p> </div>
+          <div class= "figure"><img src="images/cake.png" class="dimages"><p>Wide array of cakes</p> </div>
+        </div>
+      </section>
+      <section class="AboutUs">
+        <h1>ABOUT US</h1>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales pellentesque arcu pretium sagittis. Morbi suscipit ante tortor, ut aliquam nulla scelerisque id. Ut a neque auctor, dapibus ligula sit amet, dictum ex. Cras ultrices diam nulla, sit amet euismod nibh ullamcorper eget. Sed at malesuada elit. Vivamus rutrum lacinia venenatis. Curabitur convallis tortor sed interdum vestibulum.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales pellentesque arcu pretium sagittis. Morbi suscipit ante tortor, ut aliquam nulla scelerisque id. Ut a neque auctor, dapibusligula sit amet, dictum ex. Cras ultrices diam nulla, sit amet euismod nibh ullamcorper eget. Sed at malesuada elit. Vivamus rutrum lacinia venenatis. Curabitur convallis tortor sed interdum vestibulum.
 
-      <section class="contact-us">
-        <hr>
-        <h2>Contact Us</h2>
-        <p>
-          <a href="tel:647-391-5681">647-391-5681</a>
-          <br>
-          <a href="mailto:JackandSylgmail.com">JackandSyls@gmail.com</a>
+
         </p>
 
-        <div class="flex">
-          <p>
-          <a href="https://www.instagram.com/jack.and.syl"><img src="images/instagram-logo.png" width = "50" height="50"></a>
-          </p>
-          <p>
-          <a href="https://www.facebook.com/Jackandsy/"><img src="images/facebook-logo.png" width = "50" height="50"></a>
-          </p>
-        </div>
-        <hr>
+
       </section>
-
-      <!--<div class ="gallery">
-        <img src="images/image1.JPG" class="images">
-        <img src="images/image2.JPG" class="images">
-        <img src="images/image4.JPG" class="images">
-      </div> -->
-      <div class="slideshow">
-        <img class="mySlides" src="images/image1.JPG">
-        <img class="mySlides" src="images/image2.JPG">
-        <img class="mySlides" src="images/image4.JPG">
-        <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-        <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
-      </div>
+      <section class="Contact Us">
+        <h1>Contact Us</h1>
+      </section>
       <footer>
-        <img src="images/logo.png" alt="Jack and Syl's Gourmet Sweets" title= "Jack and Syl's Gourmet Sweets" class="logofoot">
-      </footer>
-
+        <hr>
+        <h1 style= "text-align: center;">UNDER CONSTRUCTION</h1>
     </body>
-  <script type="text/javascript">
-    var slideIndex = 1;
-    showDivs(slideIndex);
 
-    function plusDivs(n) {
-      showDivs(slideIndex += n);
-    }
-
-    function showDivs(n) {
-      var i;
-      var x = document.getElementsByClassName("mySlides");
-      if (n > x.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = x.length} ;
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-      }
-      x[slideIndex-1].style.display = "block";
-    }
-  </script>
   </html>

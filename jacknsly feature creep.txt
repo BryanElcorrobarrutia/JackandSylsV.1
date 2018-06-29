@@ -1,0 +1,8 @@
+
+Jack and Syl website features:
+
+Add description meta data
+add hyperlink titles hover with title
+add slideshow pictures
+
+add footer 
