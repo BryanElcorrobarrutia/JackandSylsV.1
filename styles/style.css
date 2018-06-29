@@ -7,7 +7,7 @@ header, p, div, body, img {
   padding: 0;
 }
 .button {
-    background-color: #c19b4f;
+    background-color: #d0a98f;
     border: none;
     color: black;
     padding: 15px 25px;
@@ -15,6 +15,10 @@ header, p, div, body, img {
     font-size: 16px;
     cursor: pointer;
     margin-bottom: 20px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: black;
+    border: 1px black solid;
 }
 .button:hover {
     background-color: brown;
@@ -31,8 +35,9 @@ header {
 .logobox {
   display: inline-block;
   background-color: beige;
+  width: 100%;
   height: 240px;
-  width: 500px;
+  max-width: 500px;
   margin-top: 20px;
   margin-bottom: 20px;
   border: 1px black solid;
@@ -51,11 +56,46 @@ header {
 .dimages {
   display: inline-block;
   width: 250px; 
+  -webkit-filter: drop-shadow(2px 1px 0 black)
+                  drop-shadow(-1px -1px 0 black);
+  /*learn how this works 100%*/
+  filter: drop-shadow(2px 1px 0 black) 
+          drop-shadow(-1px -1px 0 black);
 }
 .figure {
   text-align: center;
+  font-weight: bold;
+  font-family: Helvetica;
+  font-size: 20px;
 }
 
 .AboutUs  {
-  background-color: brown;
+  text-align: center;
+  font-family: Helvetica;
+  background-color: beige;
+  background-image: url("../images/aboutheader.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  color: white;
+}
+
+.info {
+  margin: 20px;
+  padding: 10px;
+
+}
+
+.jacknsyl{
+  width: 250px;
+  float: right;
+  margin-right: 20px;
+  margin-left: 10px;
+  border: 5px white solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ContactUs {
+  clear:both;
 }
