@@ -6,8 +6,8 @@
       <title>Jack & Syl's</title>
       <link rel="stylesheet" type="text/css" href="styles/style.css">
       <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121648041-1"></script>
-        <script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121648041-1"></script>
+      <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
@@ -24,7 +24,7 @@
         </div>
         <nav>
           <button class="button">OUR MENU</button>
-          <button class="button">CONTACT US</button>
+          <a href="#ContactUs"><button class="button">CONTACT US</button></a>
         </nav>
       </header>
       
@@ -59,10 +59,24 @@
         <div>
       </section>
 
-      <section class="ContactUs">
+      <section id="ContactUs">
         <h1>Contact Us</h1>
-        <form>
-          <input type="text" name="name">
+        <form action="https://formspree.io/bryanelcorrobarrutia@gmail.com"
+      method="POST">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name">
+          </div>
+          <div>
+            <label for="mail">Email:</label>
+            <input type="Email" name="user_mail">
+          </div>  
+          <div>
+            <label for="msg" style="display: block;">How can we help you?</label>
+            <textarea name="user_message"></textarea>
+          </div>
+          <button type="submit">Send your message</button>
+
       </section>
 
       <footer>
