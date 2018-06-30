@@ -81,10 +81,19 @@ header {
   color: white;
 }
 
+.socialimages{
+  margin-right: 10px;
+}
 .info {
   margin: 20px;
   padding: 10px;
 
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 20px;
 }
 
 .jacknsyl{
@@ -98,4 +107,5 @@ header {
 
 .ContactUs {
   clear:both;
+  text-align: center;
 }
