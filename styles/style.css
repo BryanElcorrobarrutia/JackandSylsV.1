@@ -101,7 +101,7 @@ header {
   float: right;
   margin-right: 20px;
   margin-left: 20px;
-  margin: 20px;
+  margin: 30px;
   border: 5px white solid;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -113,6 +113,8 @@ header {
 
 .info{
   font-family: Helvetica;
-  line-height: 2;
-  font-size: 20;
+  line-height: 1.714285714;
+  font-size: 110%;
+  margin-left: 80px;
+  margin-right: 80px;
 }
