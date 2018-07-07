@@ -74,7 +74,7 @@ header {
   font-family: Helvetica;
   background-color: beige;
   background-image: url("../images/aboutheader.png");
-  background-size: 100% auto;
+  background-size: 1920px auto;
   background-repeat: no-repeat;
   background-position: center;
   height: 200px;
@@ -86,7 +86,7 @@ header {
 }
 .info {
   margin: 20px;
-  padding: 10px;
+  padding: 20px;
 
 }
 .flex {
@@ -100,7 +100,8 @@ header {
   width: 250px;
   float: right;
   margin-right: 20px;
-  margin-left: 10px;
+  margin-left: 20px;
+  margin: 20px;
   border: 5px white solid;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -108,4 +109,10 @@ header {
 #ContactUs {
   clear:both;
   text-align: center;
+}
+
+.info{
+  font-family: Helvetica;
+  line-height: 2;
+  font-size: 20;
 }
