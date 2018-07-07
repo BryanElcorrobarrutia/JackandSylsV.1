@@ -118,6 +118,21 @@ header {
   margin-left: 80px;
   margin-right: 80px;
 }
+.footer{
+  background-color: white;
+}
+.footerbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.socialimagef{
+  display: inline-block;
+}
+
+
+
 
 form {
   /* Just to center the form on the page */
@@ -176,3 +191,4 @@ textarea {
      between the labels and their text fields */
   margin-left: .5em;
 }
+
