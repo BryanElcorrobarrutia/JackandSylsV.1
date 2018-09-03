@@ -1,0 +1,196 @@
+
+html {
+  background-color: beige;
+}
+header, p, div, body, img {
+  margin: 0;
+  padding: 0;
+}
+.buttons {
+    background-color: #d0a98f;
+    border: none;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: black;
+    border: 1px black solid;
+}
+.buttons:hover {
+    background-color: brown;
+}
+header {
+  background-color: beige;
+  background-image: url("../images/headerpicture.JPG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1920px 720px;
+  text-align: center;
+}
+
+.logobox {
+  display: inline-block;
+  background-color: beige;
+  width: 100%;
+  height: 240px;
+  max-width: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px black solid;
+  border-radius: 5px;
+
+}
+
+.flexing {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.dimages {
+  display: inline-block;
+  width: 250px; 
+  -webkit-filter: drop-shadow(2px 1px 0 black)
+                  drop-shadow(-1px -1px 0 black);
+  /*learn how this works 100%*/
+  filter: drop-shadow(2px 1px 0 black) 
+          drop-shadow(-1px -1px 0 black);
+}
+.figure {
+  text-align: center;
+  font-weight: bold;
+  font-family: Helvetica;
+  font-size: 20px;
+}
+
+.AboutUs  {
+  text-align: center;
+  font-family: Helvetica;
+  background-color: beige;
+  background-image: url("../images/aboutheader.png");
+  background-size: 1920px auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  color: white;
+}
+
+.socialimages{
+  margin-right: 10px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.jacknsyl{
+  width: 250px;
+  float: right;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin: 30px;
+  border: 5px white solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#ContactUs {
+  clear:both;
+  text-align: center;
+}
+
+.info{
+  font-family: Helvetica;
+  line-height: 1.714285714;
+  font-size: 110%;
+  margin-top: 20px;
+  min-width: 50px;
+}
+.infobox {
+  margin: 0 auto;
+  width: 80%;
+}
+.footer{
+  background-color: white;
+}
+.footerbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.socialimagef{
+  display: inline-block;
+}
+
+
+
+
+form {
+  /* Just to center the form on the page */
+  margin: 0 auto;
+  width: 50%;
+  height: 310px;
+  /* To see the outline of the form */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  overflow: scroll;
+  min-width: 500px; 
+}
+  
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* To make sure that all labels have the same size and are properly aligned */
+  display: inline-block;
+  width: 15%;
+  text-align: right;
+}
+
+input, textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* To give the same size to all text fields */
+  width: 80%;
+  box-sizing: border-box;
+
+  /* To harmonize the look & feel of text field border */
+  border: 1px solid #999;
+}
+input:focus, textarea:focus {
+  /* To give a little highlight on active elements */
+  border-color: #000;
+}
+
+textarea {
+  /* To properly align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* To give enough room to type some text */
+  height: 13em;
+}
+
+.button {
+  /* To position the buttons to the same position of the text fields */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+.button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-left: .5em;
+}
+
