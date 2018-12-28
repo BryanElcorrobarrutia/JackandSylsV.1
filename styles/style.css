@@ -1,196 +1,106 @@
+  <!DOCTYPE html>
+  <html>
 
-html {
-  background-color: beige;
-}
-header, p, div, body, img {
-  margin: 0;
-  padding: 0;
-}
-.buttons {
-    background-color: #d0a98f;
-    border: none;
-    color: black;
-    padding: 15px 25px;
-    text-align: center;
-    font-size: 16px;
-    cursor: pointer;
-    margin-bottom: 20px;
-    font-family: Helvetica;
-    font-weight: bold;
-    color: black;
-    border: 1px black solid;
-}
-.buttons:hover {
-    background-color: brown;
-}
-header {
-  background-color: beige;
-  background-image: url("../images/headerpicture.JPG");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 1920px 720px;
-  text-align: center;
-}
+    <head>
+      <meta charset="utf-8">
+      <meta name=viewport content="width=device-width, initial-scale=1">
+      <meta name="title" content="Jack and Syl's Gourmet Sweets">
+      <meta name="description" content="Jack and Syl's Gourmet Sweets brings you authentic latin sweets handcrafted with love and care to your event and or home.">
+      <title>Jack and Syl's Gourmet Sweets</title>
+      <link rel="stylesheet" type="text/css" href="styles/style.css">
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121648041-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-.logobox {
-  display: inline-block;
-  background-color: beige;
-  width: 100%;
-  height: 240px;
-  max-width: 500px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border: 1px black solid;
-  border-radius: 5px;
+        gtag('config', 'UA-121648041-1');
+      </script>
+    </head>
 
-}
+    <body>
+      <header> 
+        <div class="logobox">
+          <img src="images/logo.png" alt="Jack and Syl's Gourmet Sweets" title="Jack and Syl's Gourmet Sweets" style="width: 278px;">
+        </div>
+        <nav>
+          <a href="#AboutUs"><button class="buttons">About Us</button></a>
+          <a href="#ContactUs"><button class="buttons">Contact Us</button></a>
+        </nav>
+      </header>
+      
+      <section>
+        <h2 style="text-align: center; font-family: Helvetica">We Specialize in Authentic Latin Sweets</h2>
+        <div class="flexing">
+          <div class="figure"><img src="images/churros.png" class="dimages"><p>Delicious Churros</p> </div>
+          <div class="figure"><img src="images/alfajores.png" class="dimages"><p>Authentic Peruvian Alfajores</p> </div>
+          <div class= "figure"><img src="images/cake.png" class="dimages"><p>Wide Array of Cakes</p> </div>
+        </div>
+      </section>
 
-.flexing {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: space-around;
+      <div class="flex">
+        <h4 style="margin-right: 10px;">See More On Our Social Media:</h4>
+        <p class="socialimages">
+          <a href="https://www.instagram.com/jack.and.syl"><img src="images/instagram-logo.png" width = "50" height="50"></a>
+        </p>
+        <p class="socialimages">
+          <a href="https://www.facebook.com/Jackandsy/"><img src="images/facebook-logo.png" width = "50" height="50"></a>
+        </p>
+      </div>
+      <section id = "AboutUs">
+        <div class = "AboutUs" style="margin-top: 20px;">
+          <h1 style="display: inline-block; margin-top: 160px;">About Us</h1>
 
-}
+        </div>
+        <div class="infobox">
+          <img src="images/jacknsyl.jpg" class="jacknsyl">
+          <p class="info"> Welcome to Jack and Syl’s Gourmet Sweets! A business founded by two sisters, Jaqueline and Sylvia Elcorrobarrutia. Our company strives to bring authentic Latin baked sweets to our clients. My sister and I have always had a <strong>passion for cuisine</strong>, especially for desserts and sweets due to the heavy emphasis on these in our culture; eventually prompting us to take a culinary class together in 2013.<br> <br>Growing up, our parents would always teach us the family tradition of baking. I remember my mama would always take the time to bake cakes and sweets with love for all of our family gatherings, such as weddings and birthdays; something we have decided to bring to our local business. Our extended family also inspired us to pursue our dream. Visiting my grandparents’ house was always like a party; cooking and baking every day, nonstop. During our last visit to Peru, my parents’ home country, we decided to take a baking course to learn just how to make authentic Latin desserts. It was such an amazing experience! After coming home to Canada we began sampling our cookies to everyone, school teachers, coworkers, and friends. Every single person that has tried our cookies have said the same thing, <strong>“They just melt in your mouth!”</strong> We then branched off into baking fresh churros, and going so far as to bake and elaborately decorate cakes for special occasions. Check out our social media links to see more of our amazing baked goods! <br><br> <strong>We are currently located in Woodbridge, Ontario, and are constantly accepting new orders. </strong> Try our specialty baked Latin sweets for your next party, or just as a treat for yourself and loved ones!
 
-.dimages {
-  display: inline-block;
-  width: 250px; 
-  -webkit-filter: drop-shadow(2px 1px 0 black)
-                  drop-shadow(-1px -1px 0 black);
-  /*learn how this works 100%*/
-  filter: drop-shadow(2px 1px 0 black) 
-          drop-shadow(-1px -1px 0 black);
-}
-.figure {
-  text-align: center;
-  font-weight: bold;
-  font-family: Helvetica;
-  font-size: 20px;
-}
+          </p>
+        <div>
+      </section>
 
-.AboutUs  {
-  text-align: center;
-  font-family: Helvetica;
-  background-color: beige;
-  background-image: url("../images/aboutheader.png");
-  background-size: 1920px auto;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 200px;
-  color: white;
-}
+      <section id="ContactUs">
+        <h1>Contact Us</h1>
+        <form action="https://formspree.io/jackandsyls@gmail.com"
+      method="POST">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name">
+          </div>
+          <div>
+            <label for="mail">Email:</label>
+            <input type="Email" name="user_mail">
+          </div>  
+          <div>
+            <label for="msg">How can we help you?</label>
+            <textarea name="user_message"></textarea>
+          </div>
+          <button  class=type="submit">Send your message</button>
 
-.socialimages{
-  margin-right: 10px;
-}
+      </section>
 
-.flex {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  margin-top: 20px;
-}
+      <footer style="background-color: #edd4b2; margin-top: 100px;">
+        
+        <div class="footerbox">
+          <div class = "flexitem">
+            <img src="images/logo.png" style="width: 278px;">
+          </div>
+          <div class = "flexitem">
+            <p class="socialimagef">
+              <a href="https://www.instagram.com/jack.and.syl"><img src="images/instagram-logo.png" width = "50" height="50"></a>
+            </p>
+            <p class="socialimagef">
+              <a href="https://www.facebook.com/Jackandsy/"><img src="images/facebook-logo.png" width = "50" height="50"></a>
+            </p>
+          </div>
+        <div class = "flexitem">
+          <p>Located in Woodbridge, Ontario</p>
+          <p>Call us at <a href="tel:647-391-5681">647-391-5681</a></p>
+        </div>
+        </div>
+      </footer>
+    </body>
 
-.jacknsyl{
-  width: 250px;
-  float: right;
-  margin-right: 20px;
-  margin-left: 20px;
-  margin: 30px;
-  border: 5px white solid;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-#ContactUs {
-  clear:both;
-  text-align: center;
-}
-
-.info{
-  font-family: Helvetica;
-  line-height: 1.714285714;
-  font-size: 110%;
-  margin-top: 20px;
-  min-width: 50px;
-}
-.infobox {
-  margin: 0 auto;
-  width: 80%;
-}
-.footer{
-  background-color: white;
-}
-.footerbox {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.socialimagef{
-  display: inline-block;
-}
-
-
-
-
-form {
-  /* Just to center the form on the page */
-  margin: 0 auto;
-  width: 50%;
-  height: 310px;
-  /* To see the outline of the form */
-  padding: 1em;
-  border: 1px solid #CCC;
-  border-radius: 1em;
-  overflow: scroll;
-  min-width: 500px; 
-}
-  
-form div + div {
-  margin-top: 1em;
-}
-
-label {
-  /* To make sure that all labels have the same size and are properly aligned */
-  display: inline-block;
-  width: 15%;
-  text-align: right;
-}
-
-input, textarea {
-  /* To make sure that all text fields have the same font settings
-     By default, textareas have a monospace font */
-  font: 1em sans-serif;
-
-  /* To give the same size to all text fields */
-  width: 80%;
-  box-sizing: border-box;
-
-  /* To harmonize the look & feel of text field border */
-  border: 1px solid #999;
-}
-input:focus, textarea:focus {
-  /* To give a little highlight on active elements */
-  border-color: #000;
-}
-
-textarea {
-  /* To properly align multiline text fields with their labels */
-  vertical-align: top;
-
-  /* To give enough room to type some text */
-  height: 13em;
-}
-
-.button {
-  /* To position the buttons to the same position of the text fields */
-  padding-left: 90px; /* same size as the label elements */
-}
-
-.button {
-  /* This extra margin represent roughly the same space as the space
-     between the labels and their text fields */
-  margin-left: .5em;
-}
-
+  </html>
