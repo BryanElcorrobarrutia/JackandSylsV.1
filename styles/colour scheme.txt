@@ -6,3 +6,17 @@ lighter pinky: edd4b2
 greyish:  cac2b5
 
 brown: 51291e pot get light one.
+
+
+
+New colour scheme
+Jackie's favorite pink: fcd4d2
+
+Light purple: ba9897
+
+Jackie's lipstick colour: ab7267
+Dark purple: 8a4f63
+
+Grey purple: e6dfcf
+
+lighest purple : c9adc3
