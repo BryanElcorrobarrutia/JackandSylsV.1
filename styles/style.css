@@ -1,13 +1,14 @@
 
 html {
-  background-color: beige;
+  background-color: white;
 }
 header, p, div, body, img {
   margin: 0;
   padding: 0;
+  color: #001c00;
 }
 .buttons {
-    background-color: #d0a98f;
+    background-color: #ab7267;
     border: none;
     color: black;
     padding: 15px 25px;
@@ -17,14 +18,14 @@ header, p, div, body, img {
     margin-bottom: 20px;
     font-family: Helvetica;
     font-weight: bold;
-    color: black;
+    color: #001c00;
     border: 1px black solid;
 }
 .buttons:hover {
-    background-color: brown;
+    background-color: #fcd4d2;
 }
 header {
-  background-color: beige;
+  background-color: #ab7267;
   background-image: url("../images/headerpicture.JPG");
   background-repeat: no-repeat;
   background-position: center;
@@ -34,7 +35,7 @@ header {
 
 .logobox {
   display: inline-block;
-  background-color: beige;
+  background-color: white;
   width: 100%;
   height: 240px;
   max-width: 500px;
@@ -43,6 +44,12 @@ header {
   border: 1px black solid;
   border-radius: 5px;
 
+}
+
+.logoimage {
+  position: relative;
+top: 50%;
+transform: translateY(-50%);
 }
 
 .flexing {
@@ -74,7 +81,7 @@ header {
 .AboutUs  {
   text-align: center;
   font-family: Helvetica;
-  background-color: beige;
+  background-color: white;
   background-image: url("../images/aboutheader.png");
   background-size: 1920px auto;
   background-repeat: no-repeat;
@@ -124,6 +131,7 @@ header {
   font-size: 110%;
   margin-top: 20px;
   min-width: 50px;
+  color: #001c00;
 }
 .infobox {
   margin: 0 auto;
@@ -137,6 +145,7 @@ header {
   align-items: center;
   flex-flow: row wrap;
   justify-content: space-around;
+
 }
 
 .socialimagef{
@@ -211,3 +220,60 @@ textarea {
   margin-left: .5em;
 }
 
+
+
+
+/*------------------------------------------------------------------------------*/
+
+.menuitem_even {
+  background-color: #d0a98f;
+  padding: 10px;
+font-family: 'Lato', sans-serif;
+}
+.menuitem_odd {
+  background-color: beige;
+  padding: 10px;
+font-family: 'Lato', sans-serif;
+}
+.menu {
+
+}
+
+.list_menu {
+  margin: 10px; 
+  padding: 0;
+}
+
+
+.message {
+  background-color: beige;
+    padding: 10px;
+    margin: 10px auto;
+    width: 287px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.menutitle {
+      font-family: 'Lato', sans-serif;
+      margin: 20px; auto;
+      font-size: 60px;
+      text-align: center;
+}
+
+.linebreak {
+  width: 160px;
+  margin-bottom: 50px;
+}
+
+
+
+.greytext {
+  color: #001c00;
+  font-size: 40px;
+  font-family: 'Merriweather', serif;
+}
+
+.p {
+  color: red;
+}
